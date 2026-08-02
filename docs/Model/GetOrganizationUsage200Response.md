@@ -1,0 +1,13 @@
+# # GetOrganizationUsage200Response
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**usage** | [**\OpenAPI\Client\Model\Usage**](Usage.md) |  | [optional]
+**limits** | [**\OpenAPI\Client\Model\Limits**](Limits.md) |  | [optional]
+**plan** | [**\OpenAPI\Client\Model\Plan**](Plan.md) |  | [optional]
+**billing** | [**\OpenAPI\Client\Model\Billing**](Billing.md) |  | [optional]
+**suborgs** | [**\OpenAPI\Client\Model\GetOrganizationUsage200ResponseAllOfSuborgsInner[]**](GetOrganizationUsage200ResponseAllOfSuborgsInner.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
