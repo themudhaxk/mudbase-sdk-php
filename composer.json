@@ -1,0 +1,48 @@
+{
+    "description": "Official PHP client for the MUDBASE API.",
+    "keywords": [
+        "mudbase",
+        "mudbase-sdk",
+        "mudbase-api",
+        "mudbase.dev",
+        "api",
+        "sdk",
+        "rest",
+        "openapi",
+        "client",
+        "baas",
+        "php"
+    ],
+    "homepage": "https://docs.mudbase.dev",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "MUDBASE",
+            "email": "support@mudbase.dev",
+            "homepage": "https://docs.mudbase.dev"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MudbaseSDK\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MudbaseSDK\\Test\\": "test/"
+        }
+    },
+    "name": "mudbase/sdk"
+}
