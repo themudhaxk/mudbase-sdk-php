@@ -20,7 +20,7 @@
         "php"
     ],
     "homepage": "https://docs.mudbase.dev",
-    "license": "unlicense",
+    "license": "MIT",
     "authors": [
         {
             "name": "MUDBASE",
