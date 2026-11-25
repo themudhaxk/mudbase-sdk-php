@@ -6,9 +6,14 @@ Mudbase is a backend platform: authentication, a schema-driven database, file st
 
 ## Installation
 
+This package is not yet published on Packagist (checked 2026-11-25), so `composer require mudbase/sdk` on its own will not find it. Install it straight from this repository instead:
+
 ```bash
-composer require mudbase/sdk
+composer config repositories.mudbase vcs https://github.com/themudhaxk/mudbase-sdk-php
+composer require mudbase/sdk:^1.3
 ```
+
+Or clone this repository and build from source. Releases are tagged here, the latest is v1.3.17.
 
 ## Quickstart
 
